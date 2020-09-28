@@ -8,6 +8,8 @@ body {
 
 a {
 	text-decoration: none;
+	font-style: italic;
+	color: blue;
 }
 
 ul {
@@ -22,4 +24,11 @@ table.mytable, th, td {
 
 th, td {
 	padding: 20px;
+}
+
+p {
+	letter-spacing: 1px;
+	color: purple;
+	font-size: 14px;
+	font-family: serif;
 }
