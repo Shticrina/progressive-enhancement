@@ -60,18 +60,19 @@ blockquote {
 	margin: auto;
 	font-size: 160%;
 	background-color: #ddd;
-	border-left: 3px dotted #0b36b0;
+	border-left: 3px dashed #0b36b0;
 	padding-left: 30px;
 	margin-top: 80px;
 	margin-bottom: 80px;
 	font-style: italic;
 }
 
-header figure:last-child {
+header figure:nth-child(2) {
 	background-color: #ff0;
-	width: 80%;
-	margin: auto;
+	width: 40%;
+	margin-top: 0;
     padding: 10px;
+    float: left;
 } 
 
 figure img {
@@ -85,6 +86,10 @@ figure img {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }*/
+
+header ol {
+	margin-left: 20px;
+}
 
 h3 + ol {
 	color: #0b5c83!important;
@@ -117,4 +122,17 @@ table tbody tr:nth-child(odd) {
 
 footer p:first-child {
 	font-weight: bold;
+}
+
+hr {
+	clear: both;
+}
+
+footer {
+	text-align: center;
+	padding: 20px; 
+}
+
+footer p {
+	font-size: 0.8em;
 }
