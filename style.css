@@ -38,20 +38,6 @@ ul {
 	list-style-type: none;
 }
 
-blockquote {
-	width: 50%;
-	margin: auto;
-}
-
-q {
-	font-size: 160%;
-	background-color: #ddd;
-	border-left: 3px dotted #0bd31a;
-	padding-left: 30px;
-	margin-top: 80px;
-	margin-bottom: 80px;
-}
-
 table.mytable, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -67,4 +53,68 @@ p {
 	color: purple;
 	font-size: 18px;
 	font-family: serif;
+}
+
+blockquote {
+	width: 50%;
+	margin: auto;
+	font-size: 160%;
+	background-color: #ddd;
+	border-left: 3px dotted #0b36b0;
+	padding-left: 30px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-style: italic;
+}
+
+header figure:last-child {
+	background-color: #ff0;
+	width: 80%;
+	margin: auto;
+    padding: 10px;
+} 
+
+figure img {
+	width: 100%;
+}
+/*q {
+	font-size: 160%;
+	background-color: #ddd;
+	border-left: 3px dotted #0bd31a;
+	padding-left: 30px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}*/
+
+h3 + ol {
+	color: #0b5c83!important;
+}
+
+ol > li {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+table thead th:last-of-type {
+	text-transform: uppercase;
+}
+
+.bad {
+	color: red;
+}
+
+.good {
+	color: green;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #ccc;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+footer p:first-child {
+	font-weight: bold;
 }
