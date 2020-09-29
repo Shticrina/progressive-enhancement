@@ -12,6 +12,7 @@ body {
 	/*background-position: bottom right;*/
 	background-repeat: no-repeat;
 	color: #333;
+	position: relative;
 }
 
 a {
@@ -106,10 +107,12 @@ table thead th:last-of-type {
 
 .bad {
 	color: red;
+	font-style: normal;
 }
 
 .good {
 	color: green;
+	font-style: normal;
 }
 
 table tbody tr:nth-child(even) {
@@ -126,6 +129,26 @@ footer p:first-child {
 
 hr {
 	clear: both;
+}
+
+#notification {
+	/*background-color: #0b5c87;*/
+	background-color: rgb(21 79 129 / 62%);
+	color: #fff;
+	padding: 15px;
+	font-family: sans-serif;
+	width: 30%;
+	text-align: center;
+	position: fixed;
+	margin: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#notification q,
+#notification .end {
+	color: #fea604;
+    font-weight: 600;
 }
 
 footer {
