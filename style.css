@@ -6,17 +6,15 @@ body {
 	background: -webkit-radial-gradient(rgb(247, 247, 247), rgb(84, 131, 179));
 	background: radial-gradient(rgb(247, 247, 247), rgb(84, 131, 179));
 	background-image: url("./images/fond3.jpg");
-	/*background-size: 100%;*/
 	background-position: center;
 	background-size: cover;
-	/*background-position: bottom right;*/
 	background-repeat: no-repeat;
 	color: #333;
 	position: relative;
 }
 
 a {
-	/*text-decoration: none;*/
+	text-decoration: none;
 	font-style: italic;
 }
 
@@ -70,23 +68,11 @@ blockquote {
 
 header figure:nth-child(2) {
 	background-color: #ff0;
-	width: 40%;
+	width: 500px;
 	margin-top: 0;
     padding: 10px;
     float: left;
 } 
-
-figure img {
-	width: 100%;
-}
-/*q {
-	font-size: 160%;
-	background-color: #ddd;
-	border-left: 3px dotted #0bd31a;
-	padding-left: 30px;
-	margin-top: 80px;
-	margin-bottom: 80px;
-}*/
 
 header ol {
 	margin-left: 20px;
@@ -123,16 +109,11 @@ table tbody tr:nth-child(odd) {
 	background-color: #fff;
 }
 
-footer p:first-child {
-	font-weight: bold;
-}
-
 hr {
 	clear: both;
 }
 
 #notification {
-	/*background-color: #0b5c87;*/
 	background-color: rgb(21 79 129 / 62%);
 	color: #fff;
 	padding: 15px;
@@ -145,10 +126,14 @@ hr {
 	right: 0;
 }
 
-#notification q,
-#notification .end {
+#notification q, #notification .end {
 	color: #fea604;
     font-weight: 600;
+}
+
+body > p:first-of-type {
+	font-weight: bold;
+	font-size: 20px;
 }
 
 footer {
